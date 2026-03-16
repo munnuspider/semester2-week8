@@ -24,8 +24,10 @@ Definitions for these functions are provided in the header file.
 ## Question
 
 Why do we need to:
-- pass the structure for `area()`
-- pass a pointer to the structure for `shiftRectangle()` and `scaleRectangle()`  
+- pass the structure for `area()` 
+we can define the other related data types with area() -> in trun we can now have a reproducible method for finding the area of different shapes all stored in one executable file if need be.
+- pass a pointer to the structure for `shiftRectangle()` and `scaleRectangle()`
+to access the memory locations of where the functions are stored
 
 ## Extension task
 
