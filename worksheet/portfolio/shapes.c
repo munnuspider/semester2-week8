@@ -7,6 +7,8 @@
 Point makePoint( float x, float y ) {
     Point new;
     // implementation
+    new.x = x;
+    new.y = y;
     return new;
 }
 
@@ -14,3 +16,5 @@ Point makePoint( float x, float y ) {
 // - start with stubs as above
 // - compile regularly to test syntax
 // - test functions by calling them from main()
+
+
