@@ -25,8 +25,8 @@ Triangle makeTriangle(Point p1, Point p2, Point p3) {
 }
 
 float LineLength(Line l) {
-    float dx = l.p[1].x - l.p[0].x
-    float dy = l.p[1].y - l.p[0].y
+    float dx = l.p[1].x - l.p[0].x;
+    float dy = l.p[1].y - l.p[0].y;
     return sqrt(dx * dx + dy * dy);
 }
 
